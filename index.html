@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photo Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/tailwindcss@^2.2.18/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="flex justify-center items-center">
+    <div class="w-1/2 p-4 border rounded-lg shadow-lg">
+        <div class="flex flex-col justify-center items-center">
+            <h1 class="jersey-10-regular text-2xl text-center font-bold py-4">Photo Gallery</h1>
+            <img id="mainImg" class="rounded-lg" src="https://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30200.jpghttps://img.freepik.com/free-photo/abstract-blurred-multi-colored-background-generative-ai_169016-30200.jpg" alt="">
+        </div>
+        <div class="grid grid-cols-10 gap-1 my-4 border rounded-lg p-1 ">
+            <div class="single-image">
+                <img src="https://t3.ftcdn.net/jpg/05/92/95/50/360_F_592955026_DMhWXFCdqClUZcqjgzw7ZeroWD3jHSIg.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149177092.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/premium-photo/close-up-bunch-colorful-leaves-black-background-generative-ai_974533-16133.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/premium-photo/background-with-leaves-generative-ai_566661-21931.jpg"onclick="updatePhoto(this)"  alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/free-photo/underwater-chaos-vibrant-deep-colors-smooth-flow-generated-by-ai_188544-11017.jpg"onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://t3.ftcdn.net/jpg/05/92/95/50/360_F_592955026_DMhWXFCdqClUZcqjgzw7ZeroWD3jHSIg.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/free-vector/gradient-black-background-with-cubes_23-2149177092.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/premium-photo/close-up-bunch-colorful-leaves-black-background-generative-ai_974533-16133.jpg" onclick="updatePhoto(this)" alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/premium-photo/background-with-leaves-generative-ai_566661-21931.jpg"onclick="updatePhoto(this)"  alt="">
+            </div>
+            <div class="single-image">
+                <img src="https://img.freepik.com/free-photo/underwater-chaos-vibrant-deep-colors-smooth-flow-generated-by-ai_188544-11017.jpg"onclick="updatePhoto(this)" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
